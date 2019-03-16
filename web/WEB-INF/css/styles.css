@@ -1,0 +1,74 @@
+body {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.01) 0%,rgba(0,0,0,0.01) 100%), url("../images/background/background.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: Bombinate;
+    src: url(../fonts/Bombinate.ttf);
+}
+
+@font-face {
+    font-family: DroidSerifRegular;
+    src: url(../fonts/DroidSerif-Regular.ttf);
+}
+
+@font-face {
+    font-family: DroidSerifBold;
+    src: url(../fonts/DroidSerif-Bold.ttf);
+}
+
+#index--footer {
+    margin-top: 35%;
+}
+
+#index--menu {
+    /*background-image: url("../images/background/background-menu-2.jpg");*/
+    /*-webkit-background-size: cover;*/
+    /*-moz-background-size: cover;*/
+    /*-o-background-size: cover;*/
+    /*background-size: cover;*/
+}
+
+#page--header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+#page--bar {
+    position: fixed;
+    margin-top: 3px;
+}
+
+#page--content {
+
+}
+
+#registration--body {
+    opacity: 0.8;
+}
+
+#registration--main {
+    /*background-image: url("../images/background/background-menu-2.jpg");*/
+    background-color: white;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#video--content {
+    margin-top: 4px;
+    background-color: white;
+    padding: 20px;
+}
+
+#music--content {
+    margin-top: 6px;
+}
